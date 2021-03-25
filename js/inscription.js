@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	console.log("test");
 
-	$("#bouton").click(function(){
+	$("#inscription").click(function(){
 
 	//	var id =  "nom="+$("#name").val()+"&prenom="+$("#prenom").val()+"&pseudo="+$("#pseudo").val()+"&mail="+$("#mail").val()+"&password="+$("#pwd").val()+"&conf_password="+$("#confpwd").val();
 	//	console.log(id);
@@ -9,7 +9,7 @@ $(document).ready(function(){
 			type : "POST",
 			url : "php/inscription.php",
 
-			data :  "nom="+$("#name").val()+"&prenom="+$("#prenom").val()+"&pseudo="+$("#pseudo").val()+"&mail="+$("#mail").val()+"&password="+$("#pwd").val()+"&conf_password="+$("#confpwd").val(),
+			data :  "nom="+$("#nom").val()+"&prenom="+$("#prenom").val()+"&pseudo="+$("#pseudo").val()+"&mail="+$("#mail").val()+"&password="+$("#pwd").val()+"&conf_password="+$("#confpwd").val(),
 			dataType : 'html',
 
 		success : function(echo){

@@ -29,10 +29,11 @@ else{
 			//On verifie si le mdp est correct
 			if (password_verify($_POST["pwd"],$reqmdp[0])) {
 				//Le mail et mdp sont ok donc on crée la session :
-				$reqpseudo = $bdd->prepare("SELECT pseudo FROM compte WHERE mail = ?");
+				$reqpseudo = $bdd->prepare("SELECT pseudo,id FROM compte WHERE mail = ?");
 				$reqpseudo->execute(array($_POST["mail"]));
 				$pseudo = $reqpseudo->fetch();
 				$_SESSION["pseudo"]= $pseudo[0];
+				$_SESSION["id"]= $pseudo[1];
 				echo "";
 			}//Fin if verif mdp
 			else{//Le mdp corespond pas

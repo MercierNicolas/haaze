@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#bouton").click(function(){
+	$("#connexion").click(function(){
 
 	//	var id =  "nom="+$("#name").val()+"&prenom="+$("#prenom").val()+"&pseudo="+$("#pseudo").val()+"&mail="+$("#mail").val()+"&password="+$("#pwd").val()+"&conf_password="+$("#confpwd").val();
 	//	console.log(id);
