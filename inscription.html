@@ -5,51 +5,53 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Inscription-Haaze</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/inscription.css'/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'/>
 
     
 </head>
 <body>
-    
-    <img id="logo" src="img/logo.png">
-    <div id="information">
-    <form action="" method="post">
-    	<br/>
-    	<div>
-            <input type="text" id="name" name="user_name" placeholder="Votre nom">
-    	</div>
-    	<br/>
-    	<div>
-    		<input type="text" id="prenom" name="user_name2"placeholder="Votre Prénom">
-    	</div>
-    	<br/>
-    	<div>
-    		<input type="text" id="pseudo" name="user_pseudo" placeholder="Votre Pseudo">
-    	</div>
-    	<br/>
-    	<div>
-            <input type="email" id="mail" name="user_mail" placeholder="Votre Mail">
-    	</div>
-    	<br/>
-    	<div>
-    		<input type="password" id="pwd" name="pass_word"  placeholder="Mots de passe">
-    	</div>
-    	<br/>
-    	<div>
-    		<input type="password" id="confpwd" name="pass_word_conf" placeholder="Confirmation Mots de passe">
-    	</div>
-    	<br/>
-    	<div>
-    		<button id="bouton" type="button">Insription</button>
-    	</div>
-	</form>
-	<p id="Conditions">En vous inscrivant, vous acceptez nos <a href="conditions.html">Conditions générales</a>. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre <a href="utilisation.html">Politique d’utilisation des données</a> et comment nous utilisons les cookies et autres technologies similaires en consultant notre <a href="cookie/html">Politique d’utilisation des cookies</a>.</p>
+    <div id="form">
+        <div class="titre">
+            <img class="logo" src="img/logo.png">
+        </div>
+        <div class="information">
+            <div class="content">
+            	<div>
+                    <p>Votre Nom :</p>
+                    <input type="text" class="zonetxt" id="nom" name="nom">
+            	</div>
+            	<div>
+                    <p>Votre Prénom :</p>
+                    <input type="text" class="zonetxt" id="prenom" name="prenom">
+            	</div>
+            	<div>
+                    <p>Votre Pseudo :</p>
+                    <input type="text" class="zonetxt" id="pseudo" name="pseudo">
+            	</div>
+            	<div>
+                    <p>Votre E-mail :</p>
+                    <input type="email" class="zonetxt" id="mail" name="mail">
+            	</div>
+            	<div>
+                    <p>Votre mot de passe : </p>
+                    <input type="password" class="zonetxt" id="pwd" name="pwd">
+            	</div>
+            	<div>
+                    <p>Confirmer votre mot de passe : </p>
+                    <input type="password" class="zonetxt" id="confpwd" name="confpwd">
+            	</div>
+            </div>
+            <div class="btnco">
+            	<input class="bouton" id="inscription" type="button" value="Inscription">
+            	<p id="Conditions">En vous inscrivant, vous acceptez nos <a href="conditions.html">Conditions générales</a>. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre <a href="utilisation.html">Politique d’utilisation des données</a> et comment nous utilisons les cookies et autres technologies similaires en consultant notre <a href="cookie/html">Politique d’utilisation des cookies</a>.</p>
+            </div>
+        </div>
+        <div class="pas">
+        	<p>Vous avez déjà un compte ?<br/><a href="connexion.html"> Connectez-vous</a></p>
+        </div>
     </div>
-    <div id="deja">
-    	<p>Vous avez déjà un compte ?<a href="connexion.html">Connectez-vous</a>
-    </div>
-    <br/>
-
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src='js/inscription.js'></script>
 </body>
