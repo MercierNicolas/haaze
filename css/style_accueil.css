@@ -1,0 +1,149 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+html {
+    background-color: #B8A2EB;
+}
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: #F9F9F9;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 3px 4px #7145D7;
+}
+
+.header .header-logo {
+    height: 50px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.header .input{
+	width:25%;
+	margin-top: 15px;
+	margin-left: 5%;
+
+}
+
+.header .button{
+	margin-top: 15px;
+	background-color: #4107CA;
+	color: #F9F9F9;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+  
+}
+
+.header .header-icon {
+    height: 50px;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+
+.profil{
+	border-radius: 500px;
+	width: 50px;
+}
+
+.profil-img{
+	width:80%;
+	height: 80%;
+}
+
+.columns{
+	margin-top: 90px;
+	padding: 0 25px;
+	background-color: #B8A2EB;
+}
+
+.aze{
+	width: 16px;
+	margin-left: 10px;
+}
+
+.profil-icon{
+	width:20%;
+	margin:10px;
+}
+
+.form-img{
+	width:80px;
+	height:80px;
+	margin-left: -95%;
+	margin-top: -5%;
+	margin-bottom: 15px;
+}
+
+.btn_publ{
+	margin-top: 15px;
+	background-color: #4107CA;
+	color: #F9F9F9;
+	
+
+}
+
+.profil-nom{
+	text-align: center;
+}
+
+.publ-icon{
+	height: 30px;
+}
+
+.ami{
+	border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+.avantage{
+	width: 80%;
+}
+
+.notif{
+	margin-top: -5%;
+	margin-bottom: 15px;
+}
+
+.notif-notif{
+	width: 100%;
+}
+
+.pvu{
+	background-color: #ECE2F7;
+}
+
+.detail{
+	margin-top: -70px;
+	margin-left: 70px;
+	
+}
+
+.content-notif{
+	margin-top: 30px;
+}
+
+.notif-img{
+	width:60px;
+	height:60px;
+	margin-bottom: 15px;
+}
+.form-publ a{
+	width: 30%;
+
+}

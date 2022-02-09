@@ -1,0 +1,112 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url("../img/fond.gif");
+	background-size: 100%;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+}
+/*Liens*/
+a{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}
+#form{
+	padding: 20px;
+	width: 35%;
+	background-color: #FBFBFB;
+	margin: 0 auto;
+	margin-top: 5%;
+	border-radius: 50px;
+	border:solid #4107CA 5px;
+}
+#bienvenue{
+	text-align: center;
+	padding: 0 15px;
+}
+.logo{
+	width: 70%;
+}
+.titre{
+	margin-top: 5%;
+	text-align: center;
+}
+/*Div*/
+.information{
+
+	margin: 0 auto;
+	margin-top: 10%;
+	border:solid #CFCDCB 1px;
+	border-radius: 15px;
+	width: 70%;
+	background-color: #FBFBFB;
+}
+.content{
+	margin-left: 20px;
+}
+.pas{
+	margin: 0 auto;
+	margin-top: 3%;
+	border:solid #CFCDCB 1px;
+	border-radius: 15px;
+	width: 60%;
+	text-align: center;
+	background-color: #FBFBFB;
+}
+/*Bouton/zone à remplire*/
+input{
+	border:solid #CFCDCB 1px;
+	background-color: #EEEBE8;
+	border-radius: 5px;
+}
+.bouton{
+	width: 100px;
+	height: 30px;
+	background-color: #4107CA;
+	border: none;
+	color:white;
+}
+.btnco{
+	margin-top: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.btncoins{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px;
+}
+#Conditions{
+	font-size: 10px;
+	padding: 0 15px;
+}
+.zonetxt{
+	width: 90%;
+
+}
+
+.video{
+	padding: 20px;
+	width: 35%;
+	background-color: #FBFBFB;
+	margin: 0 auto;
+	margin-top: 5%;
+	border-radius: 50px;
+	border:solid #4107CA 5px;
+}
+.icon{
+	height: 30px;
+	float: right;
+}
+iframe{
+width: 100%
+}
